@@ -9,7 +9,14 @@
   "author": "ed@maidavale.org",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.4.6",
+    "crypto-js": "3.1.6",
     "johnny-five": "^0.9.59",
-    "raspi-io": "^6.0.1"
+    "minimist": "1.2.0",
+    "mqtt": "1.8.0",
+    "node-w1bus": "^0.1.2",
+    "raspi-io": "^6.0.1",
+    "raspicam": "^0.2.13",
+    "websocket-stream": "^3.1.0"
   }
 }
