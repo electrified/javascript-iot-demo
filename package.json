@@ -18,5 +18,8 @@
     "raspi-io": "^6.0.1",
     "raspicam": "^0.2.13",
     "websocket-stream": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.0.1"
   }
 }

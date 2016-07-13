@@ -1,0 +1,37 @@
+{
+  "env": {
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "strict": 0,
+    "quotes": 0,
+    "indent": [2, 2, {"SwitchCase": 1}],
+    "curly": [2, "multi-line"],
+    "no-use-before-define": [1, "nofunc"],
+    "no-unused-vars": [1],
+    "no-mixed-requires": [1, true],
+    "no-undef": 2,
+    "max-depth": [1, 5],
+    "max-len": [1, 100, 4],
+    "max-params": [1, 6],
+    "max-statements": [1, 20],
+    "eqeqeq": 0,
+    "new-cap": 0,
+    "no-else-return": 1,
+    "no-eq-null": 1,
+    "no-lonely-if": 1,
+    "no-path-concat": 0,
+    "comma-dangle": 0,
+    "complexity": [1, 20],
+    "no-floating-decimal": 1,
+    "no-void": 1,
+    "no-sync": 1,
+    "consistent-this": [1, "nope-dont-capture-this"],
+    "max-nested-callbacks": [2, 3],
+    "no-nested-ternary": 1,
+    "space-before-function-paren": [1, "never"],
+    "spaced-comment": [1, "always"],
+    "eol-last": 2
+  }
+}
